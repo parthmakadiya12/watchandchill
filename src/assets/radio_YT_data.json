@@ -1,0 +1,100 @@
+{
+  "Amsterdam": {
+    "urls": [
+      "https://icecast.omroep.nl/radio6-bb-mp3",
+      "https://icecast.omroep.nl/radio2-sterrennl-mp3",
+      "https://icecast.omroep.nl/3fm-bb-mp3",
+      "https://icecast.omroep.nl/funx-bb-mp3"
+    ],
+    "yt": "https://www.youtube.com/watch?v=Xuo4uCZxNrE"
+  },
+  "Munich": {
+    "urls": [
+      "https://br-br1-franken.cast.addradio.de/br/br1/franken/aac/low",
+      "https://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/aac/low",
+      "https://br-edge-20a9-fra-lg-cdn.cast.addradio.de/br/br1/obb/aac/low?_art=dj0yJmlwPTMxLjE4LjI1MS4xNDYmaWQ9aWNzY3hsLWVvcWZhbW5vYiZ0PTE2MTQ5NTk3OTUmcz03ODY2ZjI5YyM0NzZmMWNiZWM2NjM4NjgyYmRiMDMzNzQwYzE4OGU2ZQ",
+      "https://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/aac/low",
+      "https://br-br1-schwaben.cast.addradio.de/br/br1/schwaben/aac/low"
+    ],
+    "yt": "https://www.youtube.com/watch?v=T0l5XpOt02w"
+  },
+  "Berlin": {
+    "urls": [
+      "https://br-br1-franken.cast.addradio.de/br/br1/franken/aac/low",
+      "https://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/aac/low",
+      "https://br-edge-20a9-fra-lg-cdn.cast.addradio.de/br/br1/obb/aac/low?_art=dj0yJmlwPTMxLjE4LjI1MS4xNDYmaWQ9aWNzY3hsLWVvcWZhbW5vYiZ0PTE2MTQ5NTk3OTUmcz03ODY2ZjI5YyM0NzZmMWNiZWM2NjM4NjgyYmRiMDMzNzQwYzE4OGU2ZQ",
+      "https://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/aac/low",
+      "https://br-br1-schwaben.cast.addradio.de/br/br1/schwaben/aac/low"
+    ],
+    "yt": "https://www.youtube.com/watch?v=R_qfsPcnw-w"
+  },
+  "Frankfurt": {
+    "urls": [
+      "https://br-br1-franken.cast.addradio.de/br/br1/franken/aac/low",
+      "https://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/aac/low",
+      "https://br-edge-20a9-fra-lg-cdn.cast.addradio.de/br/br1/obb/aac/low?_art=dj0yJmlwPTMxLjE4LjI1MS4xNDYmaWQ9aWNzY3hsLWVvcWZhbW5vYiZ0PTE2MTQ5NTk3OTUmcz03ODY2ZjI5YyM0NzZmMWNiZWM2NjM4NjgyYmRiMDMzNzQwYzE4OGU2ZQ",
+      "https://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/aac/low",
+      "https://br-br1-schwaben.cast.addradio.de/br/br1/schwaben/aac/low"
+    ],
+    "yt": "https://www.youtube.com/watch?v=vnqkraiSiTI"
+  },
+  "Barcelona": {
+    "urls": [
+      "https://17343.live.streamtheworld.com/WQHTFM.mp3",
+      "https://npr-ice.streamguys1.com/live.mp3",
+      "https://ice3.somafm.com/groovesalad-128-mp3",
+      "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA"
+    ],
+    "yt": "https://www.youtube.com/watch?v=gmalRuDt1rc"
+  },
+  "New York": {
+    "urls": [
+      "https://17343.live.streamtheworld.com/WQHTFM.mp3",
+      "https://npr-ice.streamguys1.com/live.mp3",
+      "https://ice3.somafm.com/groovesalad-128-mp3",
+      "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA",
+      "https://npr-ice.streamguys1.com/live.mp3"
+    ],
+    "yt": "https://www.youtube.com/watch?v=7HaJArMDKgI"
+  },
+  "Skieing": {
+    "urls": [
+      "https://17343.live.streamtheworld.com/WQHTFM.mp3",
+      "https://npr-ice.streamguys1.com/live.mp3",
+      "https://ice3.somafm.com/groovesalad-128-mp3",
+      "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA",
+      "https://npr-ice.streamguys1.com/live.mp3"
+    ],
+    "yt": "https://www.youtube.com/watch?v=_OMar04NRZw"
+  },
+  "Space": {
+    "urls": [
+      "https://17343.live.streamtheworld.com/WQHTFM.mp3",
+      "https://npr-ice.streamguys1.com/live.mp3",
+      "https://ice3.somafm.com/groovesalad-128-mp3",
+      "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA",
+      "https://npr-ice.streamguys1.com/live.mp3"
+    ],
+    "yt": "https://www.youtube.com/watch?v=7KXGZAEWzn0"
+  },
+  "Mumbai": {
+    "urls": [
+      "http://peridot.streamguys.com:7150/Mirchi",
+      "http://176.31.107.8:8459/index.html?sid=1",
+      "http://mehefil.no-ip.com/index.html?sid=1",
+      "http://prclive1.listenon.in:9960/",
+      "http://sc-bb.1.fm:8017/"
+    ],
+    "yt": "https://www.youtube.com/watch?v=9Sxlstg6J3c"
+  },
+  "Tokyo": {
+    "urls": [
+      "https://17343.live.streamtheworld.com/WQHTFM.mp3",
+      "https://npr-ice.streamguys1.com/live.mp3",
+      "https://ice3.somafm.com/groovesalad-128-mp3",
+      "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA",
+      "https://npr-ice.streamguys1.com/live.mp3"
+    ],
+    "yt": "https://www.youtube.com/watch?v=B8Yyf6WKgaM"
+  }
+}

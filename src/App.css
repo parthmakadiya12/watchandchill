@@ -1,38 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+}
+.container {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.zero-margin {
+  margin-right: 0;
+  margin-left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container iframe,
+.videoWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .container iframe,
+  .videoWrapper,
+  ReactPlayer {
+    pointer-events: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  font-family: Avenir, Helvetica, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-aspect-ratio: 16/9) {
+  .videoWrapper {
+    height: 300%;
+    top: -100%;
   }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .videoWrapper {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .col-sm-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  #panel {
+    overflow-y: scroll;
+    height: 100%;
+    width: 37%;
+    position: absolute;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15px;
+    bottom: 0;
+    background: rgba(33, 33, 33, 0.5);
+    color: #fff;
+  }
+
+  .buttonSet {
+    margin-top: 10px;
+  }
+
+  .layer img {
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .App h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .App .acronym,
+  .App h1 {
+    display: none;
+  }
+}
+
+.spinner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -98;
+  position: fixed;
+  background-image: url("./assets/noise.png");
+  background-repeat: repeat;
+  animation: shake 0.1s infinite linear alternate;
+}
+
+@keyframes shake {
+  0% {
+    background-position: 10px 200px;
+  }
+
+  20% {
+    background-position: -50px 0;
+  }
+
+  40% {
+    background-position: 100px -10px;
+  }
+
+  60% {
+    background-position: 0 -150px;
+  }
+
+  80% {
+    background-position: -100px -30px;
+  }
+
   to {
-    transform: rotate(360deg);
+    background-position: 160px -60px;
   }
 }
