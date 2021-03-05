@@ -26,7 +26,7 @@
 }
 
 .videoContainer {
-  height: 200px;
+  height: 250px;
   overflow: scroll;
 }
 
@@ -124,4 +124,28 @@
   bottom: 15px;
   left: 20px;
   cursor: pointer;
+}
+
+.badge {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .controlContainer {
+    max-width: 50%;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .badge {
+    display: block;
+    bottom: 0;
+    position: absolute;
+    z-index: 1000;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    opacity: 0.6;
+  }
 }

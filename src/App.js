@@ -16,6 +16,9 @@ function App() {
       <Spinner play={ready} />
       <YTPlayer url={url} muted={muted} setReady={setReady} volume={0.4} />
       <SideControl setYtUrl={setYtUrl} ytUrl={url} />
+      <div className="badge">
+        Please view this on desktop for better experience
+      </div>
     </div>
   );
 }
