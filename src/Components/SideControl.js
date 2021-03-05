@@ -35,7 +35,10 @@ export function SideControl({ changeVolume, setYtUrl, ytUrl }) {
                 className={`videolistItem ${i === city && "activeItem"}`}
                 key={`${i}_${index}`}
                 value={i}
-                onClick={(e) => setYtUrl(data[e.target.innerHTML].yt)}
+                onClick={(e) => {
+                  setYtUrl(data[e.target.innerHTML].yt);
+                  setCity(i);
+                }}
               >
                 {i}
               </li>

@@ -9,7 +9,10 @@ export function YTPlayer({ url, muted, setReady, volume }) {
           url={url}
           muted={muted}
           volume={volume}
-          onPlay={() => setReady(false)} //
+          onPlay={() => setReady(false)}
+          onStart={() => setReady(false)}
+          onBuffer={() => setReady(true)}
+          onClickPreview={() => console.log("click preview")}
           width="100%"
           height="100%"
           config={{
