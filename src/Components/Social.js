@@ -22,7 +22,7 @@ export function Social() {
       >
         <img className="socialIcon" src={github} alt="Github" />
       </a>
-      <a target="_blank" without rel="noreferrer" href="http://resumo.in/">
+      <a target="_blank" without rel="noreferrer" href="http://blog.resumo.in/">
         <img className="socialIcon" src={blog} alt="Website" />
       </a>
       <a

@@ -18,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "surge": "surge --domain watchandchill.surge.sh",
-    "fire": "npm run build && npm surge"
+    "surge": "cd build && surge --domain watchandchill.surge.sh",
+    "fire": "npm run build && npm run surge"
   },
   "eslintConfig": {
     "extends": [

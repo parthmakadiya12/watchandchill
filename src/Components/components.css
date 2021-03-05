@@ -1,6 +1,6 @@
 .controlContainer {
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid #0818615f;
   max-width: fit-content;
   background-color: #02104f26;
   color: white;
@@ -41,6 +41,7 @@
   padding: 0;
   flex-direction: column;
   cursor: pointer;
+  margin-top: 0;
 }
 
 .videolistItem {
