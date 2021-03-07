@@ -29,7 +29,7 @@ export function SideControl({ changeVolume, setYtUrl, ytUrl }) {
         <h1 className="header">Watch & Chill </h1>
         <div className="videoContainer componentContainer">
           <span className="titleHeader">List of Videos</span>
-          <ul className="videolistContainer">
+          <ul className="videolistContainer scroll">
             {Object.keys(data).map((i, index) => (
               <li
                 className={`videolistItem ${i === city && "activeItem"}`}

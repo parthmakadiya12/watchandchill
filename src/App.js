@@ -17,7 +17,7 @@ function App() {
       <YTPlayer url={url} muted={muted} setReady={setReady} volume={0.4} />
       <SideControl setYtUrl={setYtUrl} ytUrl={url} />
       <div className="badge">
-        Please view this on desktop for better experience
+        Please watch this on desktop for better experience
       </div>
     </div>
   );

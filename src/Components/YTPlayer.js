@@ -9,10 +9,13 @@ export function YTPlayer({ url, muted, setReady, volume }) {
           url={url}
           muted={muted}
           volume={volume}
+          loop={true}
+          onEnded={() => {
+            console.log("TODO:video ended");
+          }}
           onPlay={() => setReady(false)}
           onStart={() => setReady(false)}
           onBuffer={() => setReady(true)}
-          onClickPreview={() => console.log("click preview")}
           width="100%"
           height="100%"
           config={{
