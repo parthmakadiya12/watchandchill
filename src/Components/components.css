@@ -2,7 +2,7 @@
   height: 100%;
   border: 1px solid #0818615f;
   max-width: fit-content;
-  background-color: #02104f26;
+  background-color: #02104f38;
   color: white;
 }
 .controlContainer:hover {
@@ -23,6 +23,7 @@
   border: 1px solid #0818615f;
   border-radius: 2px;
   margin: auto 10px;
+  background-color: #66339914;
 }
 
 .videoContainer {
@@ -39,7 +40,7 @@
 .videolistContainer {
   padding: 0;
   cursor: pointer;
-  overflow: scroll;
+  overflow: auto;
   height: 100%;
   margin: 0;
 }
@@ -154,4 +155,37 @@
   .header {
     margin: 30px 15px 20px 15px;
   }
+}
+
+.videoControl {
+  margin-top: 30px;
+}
+.controlBtn {
+  border: 1px solid #0818615f;
+  border-radius: 5px;
+  padding: 3px 7px;
+  font-size: 12px;
+  background-color: #767c9654;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.controlBtn:first-child {
+  margin-left: 0;
+}
+
+.controlBtn:hover {
+  background-color: #868ba4aa;
+}
+
+.controlWrapper {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.active {
+  background-color: #ffffffc2;
+  color: rebeccapurple;
 }

@@ -6,6 +6,7 @@ import hide from "../assets/hide.svg";
 
 import data from "../assets/radio_YT_data.json";
 import { VideoCredits } from "./VideoCredits";
+import { VideoControl } from "./VideoControl";
 
 export function SideControl({ changeVolume, setYtUrl, ytUrl }) {
   const [city, setCity] = useState("New York");
@@ -26,7 +27,7 @@ export function SideControl({ changeVolume, setYtUrl, ytUrl }) {
         onClick={() => setShowHide(!showHide)}
       />
       <div className={`controlContainer ${showHide ? "" : "hidden"}`}>
-        <h1 className="header">Watch & Chill </h1>
+        <h1 className="header">Watch and Chill </h1>
         <div className="videoContainer componentContainer">
           <span className="titleHeader">List of Videos</span>
           <ul className="videolistContainer scroll">
@@ -45,6 +46,7 @@ export function SideControl({ changeVolume, setYtUrl, ytUrl }) {
             ))}
           </ul>
         </div>
+        <VideoControl />
         <Radio city={city} setCity={setCity} changeVolumeRange={changeVolume} />
         <Social />
         <VideoCredits url={ytUrl} />

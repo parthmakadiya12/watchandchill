@@ -12,6 +12,7 @@ export function Radio({ city }) {
   const [isPaused, setIsPaused] = useState(true);
   const [radioUrls, setRadioUrls] = useState([]);
   const [volume, changeVolume] = useState(0.3);
+
   const [currentRadioUrl, setCurrentRadioUrl] = useState(
     "https://n03.radiojar.com/2p37c9au5qwtv?rj-ttl=5&rj-tok=AAABccOjvQMAtGP3FYpKeY27kA"
   );

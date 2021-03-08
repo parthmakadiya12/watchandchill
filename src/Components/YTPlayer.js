@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player/youtube";
 
-export function YTPlayer({ url, muted, setReady, volume }) {
+export function YTPlayer({ url, muted, setReady, volume, playbackRate }) {
   return (
     <div className="container">
       <div className="videoWrapper">
@@ -9,6 +9,7 @@ export function YTPlayer({ url, muted, setReady, volume }) {
           url={url}
           muted={muted}
           volume={volume}
+          playbackRate={playbackRate}
           loop={true}
           onEnded={() => {
             console.log("TODO:video ended");

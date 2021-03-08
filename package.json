@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "surge": "cd build && surge --domain watchandchill.surge.sh",
-    "fire": "npm run build && npm run surge"
+    "fire": "npm run build && npm run surge",
+    "surge:pm": "cd build && surge --domain watchandchill.parthmakadiya.com"
   },
   "eslintConfig": {
     "extends": [
